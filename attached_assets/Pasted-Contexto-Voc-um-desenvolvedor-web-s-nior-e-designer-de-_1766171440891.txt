@@ -1,0 +1,165 @@
+Contexto
+
+Você é um desenvolvedor web sênior e designer de produto.
+
+Quero criar uma landing page profissional para uma Personal Chef, usando como base o PDF anexado, que contém:
+
+apresentação pessoal
+
+serviços
+
+valores
+
+cardápios
+
+identidade visual
+
+O público é brasileiro.
+
+Stack técnica (obrigatória)
+
+Next.js (App Router)
+
+Build estático (SSG)
+
+Tailwind CSS
+
+shadcn/ui
+
+Sem backend
+
+Sem APIs
+
+Projeto pronto para deploy estático (Vercel / Netlify)
+
+A página deve funcionar 100% como site estático.
+
+Objetivo
+
+Criar uma landing page one-page, focada em conversão, para:
+
+gerar contato via WhatsApp
+
+direcionar para Instagram
+
+transmitir confiança, afeto e profissionalismo
+
+destacar alimentação saudável, funcional e personalizada
+
+Estrutura da página
+
+Crie a página com as seguintes seções, todas renderizadas estaticamente:
+
+Hero
+
+Nome da Personal Chef
+
+Headline forte
+
+Subheadline emocional baseada no PDF
+
+CTA: Agendar pelo WhatsApp
+
+Quem sou eu
+
+História e apresentação baseadas no PDF
+
+Especialidades
+
+Gastronomia funcional
+
+Alimentação saudável
+
+Vegano / Plant Based
+
+Marmitas
+
+Massas, tortas, quiches e confeitaria saudável
+
+Como funciona
+
+Planejamento
+
+Execução
+
+Finalização
+
+Serviços e valores
+
+Marmitas Express
+
+Diária
+
+Pacotes maiores
+
+Observações de valores promocionais, se existirem
+
+Cardápios
+
+Frango
+
+Carnes
+
+Peixes
+
+Vegetariano / Vegano
+
+Massas sem glúten
+
+Acompanhamentos, lanches e sobremesas
+
+Mostrar apenas exemplos + “e muito mais”
+
+Chamada final (CTA)
+
+Texto emocional
+
+Botão de WhatsApp
+
+Link para Instagram
+
+Footer
+
+Nome da chef
+
+Links de contato
+
+Design & UI
+
+Visual clean, elegante e acolhedor
+
+Cores inspiradas no PDF (tons naturais, verde/lilás)
+
+Tipografia moderna e legível
+
+Mobile-first
+
+Foco em clareza e conversão
+
+Requisitos técnicos
+
+Usar App Router
+
+Página principal em app/page.tsx
+
+Conteúdo totalmente estático
+
+Sem getServerSideProps
+
+Sem fetch
+
+Usar next/image e next/link
+
+SEO básico com metadata
+
+Regras finais
+
+Texto em português (Brasil)
+
+O PDF é a fonte principal do conteúdo
+
+Não inventar informações
+
+Pensar como landing page de vendas
+
+Código limpo, organizado e pronto para produção
