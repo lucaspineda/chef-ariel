@@ -16,6 +16,11 @@ import {
   ShoppingBasket,
   Refrigerator
 } from "lucide-react";
+import chefCookingImg from "@assets/stock_images/female_chef_cooking__d30eafff.jpg";
+import foodPlatingImg from "@assets/stock_images/healthy_food_plating_664a1184.jpg";
+import vegetablesImg from "@assets/stock_images/fresh_organic_vegeta_c89047d6.jpg";
+import chefPrepImg from "@assets/stock_images/chef_hands_preparing_1c4149e3.jpg";
+import dessertImg from "@assets/stock_images/healthy_dessert_suga_6385a49a.jpg";
 
 // Animation variants
 const fadeIn = {
@@ -85,10 +90,8 @@ export default function Home() {
               {/* Overlay for text legibility if needed, or subtle gradient */}
               <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent z-10 mix-blend-overlay" />
               
-              {/* Descriptive comment for Unsplash image */}
-              {/* professional female chef cooking healthy food in bright kitchen with vegetables */}
               <img 
-                src="https://pixabay.com/get/g2b9aabff39d3f20c0ba9f65b52d29924338a83bb8c1eafc303dc26dd2fb64c50a101acc90f5b87f5c86f9ae49e91001ba4f3ec2cff6bdc1edc8cb326ea5a9956_1280.jpg" 
+                src={chefCookingImg}
                 alt="Chef Ariel Bilica Cooking" 
                 className="object-cover w-full h-full transform hover:scale-105 transition-transform duration-700"
               />
@@ -121,16 +124,12 @@ export default function Home() {
             >
               <div className="grid grid-cols-2 gap-4">
                 <div className="space-y-4 mt-8">
-                  {/* healthy food plating details */}
-                  <img src="https://images.unsplash.com/photo-1547592180-85f173990554?q=80&w=1000&auto=format&fit=crop" className="rounded-2xl shadow-lg w-full h-48 object-cover" alt="Prato saudável" />
-                  {/* fresh vegetables market */}
-                  <img src="https://images.unsplash.com/photo-1466637574441-749b8f19452f?q=80&w=1000&auto=format&fit=crop" className="rounded-2xl shadow-lg w-full h-64 object-cover" alt="Ingredientes frescos" />
+                  <img src={foodPlatingImg} className="rounded-2xl shadow-lg w-full h-48 object-cover" alt="Prato saudável" />
+                  <img src={vegetablesImg} className="rounded-2xl shadow-lg w-full h-64 object-cover" alt="Ingredientes frescos" />
                 </div>
                 <div className="space-y-4">
-                  {/* chef preparing meal detail */}
-                  <img src="https://pixabay.com/get/g604578f7296d0f269f47eb1e2d6d3b7b5b3131228711ba180d9b13d12fd2f6382c51adad657144afd6d8a4369080b35c83753c510fd9d7f03afc04d3c6be78eb_1280.jpg" className="rounded-2xl shadow-lg w-full h-64 object-cover" alt="Preparando com carinho" />
-                  {/* healthy dessert */}
-                  <img src="https://pixabay.com/get/gd81160f0a0a89c1e598dfd6443b6a81fb440fcbfa0caf92f350b90ee9cfb788ecdfdd64316702e9c1b6f3f3deaf24f433965e391f932dda80b798366d2326308_1280.jpg" className="rounded-2xl shadow-lg w-full h-48 object-cover" alt="Sobremesas saudáveis" />
+                  <img src={chefPrepImg} className="rounded-2xl shadow-lg w-full h-64 object-cover" alt="Preparando com carinho" />
+                  <img src={dessertImg} className="rounded-2xl shadow-lg w-full h-48 object-cover" alt="Sobremesas saudáveis" />
                 </div>
               </div>
             </motion.div>
