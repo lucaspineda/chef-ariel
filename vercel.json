@@ -1,11 +1,15 @@
 {
-  "buildCommand": "vite build --outDir dist/public",
+  "version": 2,
+  "framework": null,
+  "buildCommand": "npm run vercel-build",
   "outputDirectory": "dist/public",
-  "cleanUrls": true,
-  "rewrites": [
+  "routes": [
     {
-      "source": "/(.*)",
-      "destination": "/index.html"
+      "handle": "filesystem"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
     }
   ]
 }
